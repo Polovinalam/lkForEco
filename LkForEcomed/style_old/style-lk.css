@@ -1,0 +1,213 @@
+/* .lk-clear {
+	height: 25px;
+} */
+
+.lk-btn-wrap {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.lk-btn-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.btn-xls {
+	cursor: pointer;
+	position: sticky;
+	top: 0;
+	background: #F11B35;
+	border: 2px solid #F11B35;
+	color: #fff;
+	width: 197px;
+	text-align: center;
+	padding: 12px 0px;
+	display: inline-block;
+	font-family: 'OpenSansBold', Helvetica, Arial, sans-serif;
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	-o-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+	font-size: 14px;
+	line-height: 1.4em;
+}
+
+.btn-xls:hover {
+	border: 2px solid #018e45;
+	background: #00b13b;
+	font-size: 14px;
+	line-height: 1.4em;
+}
+
+.lk-btn-clear {
+	border: 2px solid #F11B35;
+}
+
+.lk-btn-clear:hover {
+	background: rgb(255, 251, 250);
+	color: rgb(8, 1, 28);
+	border-radius: 5px;
+}
+
+.scrollup {
+	width: 40px;
+	height: 40px;
+	opacity: 0.3;
+	position: fixed;
+	bottom: 40px;
+	right: 100px;
+	display: block;
+	text-indent: -9999px;
+	border-top: 10px solid rgb(137, 112, 180);
+	border-right: 10px solid rgb(137, 112, 180);
+	margin-right: 40px;
+	transform: rotate(-45deg)
+}
+
+.tr_d {
+	background-color: #f5f1f1;
+}
+
+.tr_ld {
+	background-color: #ecf5f5;
+}
+
+.tr_d:hover {
+	background: #00b13b;
+}
+
+/* ============================ */
+/* Темы таблицы */
+/* ============================ */
+.block-table-theme {
+	display: fixed;
+	height: 30px;
+	position: absolute;
+}
+
+.table-theme {
+	display: none;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	position: absolute;
+	cursor: pointer;
+	left: -50px;
+	top: -40px;
+	-webkit-transition: all 0.45s ease-out;
+	-moz-transition: all 0.45s ease-out;
+	-o-transition: all 0.45s ease-out;
+	transition: all 0.45s ease-out;
+}
+
+.table-theme-light {
+	background: #f7db3d;
+	box-shadow: 3px 3px 1px #303342;
+}
+
+.table-theme-dark {
+	background-color: #303342;
+	box-shadow: 3px 3px 1px #f7db3d;
+}
+
+.table-theme-light:hover {
+	background-color: #303342;
+	box-shadow: 3px 3px 1px #f7db3d;
+}
+
+.table-theme-dark:hover {
+	background-color: #f7db3d;
+	box-shadow: 3px 3px 1px #303342;
+}
+
+/* =========Светлая тема============ */
+.table_light {
+	align-items: center;
+	font-weight: bold;
+	background-color: #DCDCDC;
+	border: 1.2px solid black;
+	font-size: 14px;
+	text-align: left;
+	border-collapse: collapse;
+	/* background: #303342; */
+	margin: 10px;
+}
+
+.table_light th {
+	background-color: #DCDCDC;
+	font-weight: bold;
+	border: 1px solid #bebebe;
+	border-bottom: 1px solid black;
+	padding: 12px 17px;
+}
+
+.table_light td {
+	color: #1a1c1c;
+	background-color: #ecf5f5;
+	font-weight: normal;
+	border: 1px solid #bebebe;
+	padding: 7px 17px;
+	-webkit-transition: all 0.35s ease-out;
+	-moz-transition: all 0.35s ease-out;
+	-o-transition: all 0.35s ease-out;
+	transition: all 0.35s ease-out;
+}
+
+.table_light tr:last-child td {
+	border-bottom: none;
+}
+
+.table_light td:last-child {
+	border-right: none;
+}
+
+.table_light tr:hover td {
+	background-color: #f5f1f1;
+	text-decoration: underline;
+}
+
+/* ====================================== */
+
+/* =============== тёмная тема =============== */
+.table_dark {
+	font-size: 14px;
+	text-align: left;
+	border-collapse: collapse;
+	background: #303342;
+	margin: 10px;
+}
+
+.table_dark th {
+	color: #00c9ca;
+	text-shadow: #f54b5f 1px 1px 2px;
+	background-color: #303342;
+	border-bottom: 1px solid #02C3E2;
+	padding: 12px 17px;
+}
+
+.table_dark td {
+	color: #CAD4D6;
+	border-bottom: 1px solid #02C3E2;
+	border-right: 1px solid #02C3E2;
+	padding: 7px 17px;
+	-webkit-transition: all 0.45s ease-out;
+	-moz-transition: all 0.45s ease-out;
+	-o-transition: all 0.45s ease-out;
+	transition: all 0.45s ease-out;
+}
+
+.table_dark tr:last-child td {
+	border-bottom: none;
+}
+
+.table_dark td:last-child {
+	border-right: none;
+}
+
+.table_dark tr:hover td {
+	background-color: #8970b4;
+	color: #e9f8fb;
+}
+
+/* ====================================== */
